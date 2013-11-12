@@ -8,7 +8,7 @@ html, body {
 }
 
 h1{
-
+  color: #FFF;
 
 }
 
@@ -187,6 +187,7 @@ h1 {
 
 p {
   margin-left: 1.2rem;
+  color: #FFF;
 }
 
 .article{
