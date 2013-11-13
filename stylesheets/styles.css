@@ -130,8 +130,6 @@ img#aboutme-pic {
 /*             ID's              */
 /*-------------------------------*/
 
-
-
 #lbox {
     background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0.7))), url('../images/left.jpg');
     background-image: -webkit-linear-gradient(top, transparent, rgba(99,130,169,.7)), url('../images/left.jpg');
@@ -176,7 +174,7 @@ img#aboutme-pic {
     background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0.7))), url('../images/right.jpg'); /* Chrome,Safari4+ */
     background-image: -webkit-linear-gradient(top, transparent, rgba(99,130,169,.7)), url('../images/right.jpg'); /* Chrome10+,Safari5.1+ */
     background-image: -moz-linear-gradient(top, transparent, rgba(0,0,0,.7)), url('../images/right.jpg'); /* FF3.6+ */
-    background-image: -ms-linear-gradient(top, transparent, rgba(99,130,169,.7)), url('../images/right.jpg'); /* IE10+ */
+    background-image: -ms-linear-gradient(top, transparent, rgba(0,0,0,.7)), url('../images/right.jpg'); /* IE10+ */
 
     background-repeat: no-repeat;
     background-position: center;
