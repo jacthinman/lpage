@@ -48,6 +48,12 @@ a:hover {color:#4DBCE4;}    /* mouse over link */
   position: relative;
 }
 
+.halfcol {
+  width: 33.333333%;
+  height: 50%;
+  float: left;
+}
+
 .filldiv {
   display: block;
   height: 100%;
@@ -126,11 +132,12 @@ img#aboutme-pic {
   color: #FFF;
 }
 
+
 /*-------------------------------*/
 /*             ID's              */
 /*-------------------------------*/
 
-#lbox {
+#lboxup {
     background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(99,130,169, 0.7))), url('../images/left.jpg');
     background-image: -webkit-linear-gradient(top, transparent, rgba(0,0,0,.7)), url('../images/left.jpg');
     background-image: -moz-linear-gradient(top, transparent, rgba(0,0,0,.7)), url('../images/left.jpg');
@@ -141,7 +148,24 @@ img#aboutme-pic {
     background-size: cover;
 }
 
-#lbox:hover {
+#lboxup:hover {
+  background: url('../images/left.jpg') no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#lboxdown {
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(99,130,169, 0.7))), url('../images/left.jpg');
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0,0,0,.7)), url('../images/left.jpg');
+    background-image: -moz-linear-gradient(top, transparent, rgba(0,0,0,.7)), url('../images/left.jpg');
+    background-image: -ms-linear-gradient(top, transparent, rgba(0,0,0,.7)), url('../images/left.jpg');
+
+}
+
+#lboxdown: hover {
   background: url('../images/left.jpg') no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
