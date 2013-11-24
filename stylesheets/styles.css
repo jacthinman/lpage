@@ -62,6 +62,10 @@ a:hover {color:#4DBCE4;}    /* mouse over link */
   width: 100%;
 }
 
+.column:hover a {
+  color: #4DBCE4;
+  }
+
 .menuit {
   font-family: Futura, Calibri, Helvetica, Arial, sans-serif;  
   font-size: 9vmin;
