@@ -214,3 +214,7 @@ img#aboutme-pic {
   text-align: right;
   margin-right: 10px;
 }
+
+#jgquote:hover {
+  color: #FFF;
+}
