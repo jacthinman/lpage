@@ -138,7 +138,9 @@ img#aboutme-pic {
   color: #FFF;
 }
 
-.rotate {
+/*  Not used currently, works on text.
+
+.rotate90 {
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
@@ -150,7 +152,7 @@ img#aboutme-pic {
   -ms-transform-origin: 50% 50%;
   -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
-}
+} */
 
 
 /*-------------------------------*/
@@ -161,11 +163,12 @@ img#aboutme-pic {
   height: 100%;
   width: 8%;
   float: left;
-}
 
-#homename {
-  font-size: 4.5rem;
-  float: left;
+  background: url('../images/namebar.jpg') no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #lbox {
