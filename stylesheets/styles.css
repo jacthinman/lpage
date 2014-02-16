@@ -186,6 +186,10 @@ img#aboutme-pic {
 /*             ID's              */
 /*-------------------------------*/
 
+#currentcourses{
+  margin-left: 50px;
+}
+
 #ntitle {
   height: 100%;
   width: 8%;
